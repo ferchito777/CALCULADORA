@@ -2,6 +2,7 @@
 
 //Carlos Fernando Torres Cortes
 //Barbosa Pacheco Jesus Gael
+//Resendiz Carrera Armando Alan
 #include <stdio.h>
 
 int main()
