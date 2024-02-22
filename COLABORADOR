@@ -1,1 +1,46 @@
 
+#include <stdio.h>
+
+int main() {
+    char operador;
+    double num1, num2, resultado;
+
+    // Solicitar al usuario la operación
+    printf("Ingrese la operación (+, -, *, /): ");
+    scanf("%c", &operador);
+
+    // Solicitar al usuario los operandos
+    printf("Ingrese el primer número: ");
+    scanf("%lf", &num1);
+
+    printf("Ingrese el segundo número: ");
+    scanf("%lf", &num2);
+
+    // Realizar la operación y mostrar el resultado
+    switch (operador) {
+        case '+':
+            resultado = num1 + num2;
+            break;
+        case '-':
+            resultado = num1 - num2;
+            break;
+        case '*':
+            resultado = num1 * num2;
+            break;
+        case '/':
+            if (num2 != 0) {
+                resultado = num1 / num2;
+            } else {
+                printf("Error: No se puede dividir por cero.\n");
+                return 1;  // Salir con código de error
+            }
+            break;
+        default:
+            printf("Error: Operador no válido.\n");
+            return 1;  // Salir con código de error
+    }
+
+    printf("El resultado es: %.2lf\n", resultado);
+
+    return 0;  // Salir sin errores
+}
