@@ -10,7 +10,7 @@ printf("ELIGE UNA OPCION: +,-,*,/ ");
 scanf(%c, &opcion);
 
 
-switch(opcion);
+switch(opcion){
 
 case 1 '+':
 
@@ -28,5 +28,10 @@ case 4 '/':
 
 break;
 
+default:
+printf("operacion no valida");
+
+
+}
 return 0;
 }
