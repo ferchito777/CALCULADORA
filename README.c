@@ -18,11 +18,11 @@ scanf("%c", &opcion);
 switch(opcion){
 
 case '+':
-
+resultado = num1 + num2;
 break;
 
 case '-':
-
+resultado = num1 - num2;
 break;
 
 case '*': 
