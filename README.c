@@ -1,6 +1,7 @@
 //CALCULADORA
 
 //Carlos Fernando Torres Cortes
+//Barbosa Pacheco Jesus Gael
 #include <stdio.h>
 
 int main()
