@@ -17,19 +17,19 @@ scanf(%c, &opcion);
 
 switch(opcion){
 
-case 1 '+':
+case '+':
 
 break;
 
-case 2 '-':
+case '-':
 
 break;
 
-case 3 '*': 
+case '*': 
 
 break;
 
-case 4 '/':
+case '/':
 
 break;
 
