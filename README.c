@@ -1,5 +1,6 @@
 //CALCULADORA
-//librerias
+
+//Carlos Fernando Torres Cortes
 #include <stdio.h>
 
 int main()
