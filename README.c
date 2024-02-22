@@ -58,4 +58,5 @@ float div(float num1, float num2){
   }
   res = num1 / num2;
   return res;
+  printf("Resultado de la operacion \n %f" res);
 }
