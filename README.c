@@ -1,11 +1,14 @@
-# CALCULADORA
+//CALCULADORA
+//librerias
 #include <stdio.h>
 
 int main()
 {
+
 char opcion;
 float num1,num2;
-
+  
+//MENU
 printf("ELIGE UNA OPCION: +,-,*,/ ");
 printf("\n + SUMA ");
 printf("\n - RESTA ");
@@ -18,11 +21,11 @@ scanf("%c", &opcion);
 switch(opcion){
 
 case '+':
-resultado = num1 + num2;
+res = num1 + num2;
 break;
 
 case '-':
-resultado = num1 - num2;
+res = num1 - num2;
 break;
 
 case '*': 
