@@ -7,6 +7,11 @@ char opcion;
 float num1,num2;
 
 printf("ELIGE UNA OPCION: +,-,*,/ ");
+printf("\n + SUMA ");
+printf("\n - RESTA ");
+printf("\n * MULTIPLICACION ");
+printf("\n / DIVISION ");
+
 scanf(%c, &opcion);
 
 
