@@ -17,7 +17,7 @@ printf("\n / DIVISION ");
 
 scanf("%c", &opcion);
 
-
+//operaciones
 switch(opcion){
 
 case '+':
