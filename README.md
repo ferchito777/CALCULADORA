@@ -6,7 +6,7 @@ int main()
 char opcion;
 float num1,num2;
 
-printf("ELIGE UNA OPCION: +,-,*,/ ");}
+printf("ELIGE UNA OPCION: +,-,*,/ ");
 scanf(%c, &opcion);
 
 
