@@ -12,13 +12,13 @@ scanf(%c, &opcion);
 
 switch(opcion);
 
-case 1 '+':
+  case 1 '+':
+  resultado = num1 + num2;
+  break;
 
-break;
-
-case 2 '-':
-
-break;
+  case 2 '-':
+  resultado = num1 - num2;
+  break;
 
 case 3 '*': 
 
