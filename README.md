@@ -12,7 +12,7 @@ printf("\n - RESTA ");
 printf("\n * MULTIPLICACION ");
 printf("\n / DIVISION ");
 
-scanf(%c, &opcion);
+scanf("%c", &opcion);
 
 
 switch(opcion){
