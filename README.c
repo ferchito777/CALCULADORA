@@ -4,45 +4,49 @@
 
 int main()
 {
-
 char opcion;
-float num1,num2,res;
-  
-//MENU
-printf("ELIGE UNA OPCION: +,-,*,/ ");
+float num1,num2,resultado;
+
+
 printf("\n + SUMA ");
 printf("\n - RESTA ");
 printf("\n * MULTIPLICACION ");
 printf("\n / DIVISION ");
-
+printf("\n ELIGE UNA OPCION: ");
 scanf("%c", &opcion);
 
-//operaciones
+printf("\n INGRESE NUMERO 1: ");
+scanf("%f", &num1);
+  
+printf("\n INGRESE NUMERO 2: ");
+scanf("%f", &num2);
+
 switch(opcion){
 
 case '+':
-res = num1 + num2;
+    
+resultado = num1 + num2;
 break;
 
 case '-':
-res = num1 - num2;
+resultado = num1 - num2;
 break;
 
 case '*': 
-res= num1*num2;
+resultado = num1 * num2;
 break;
 
 case '/':
-res= num1/num2;
+resultado = num1 / num2;
 break;
 
 default:
 printf("operacion no valida");
 
 
+
 }
 
-   printf("Resultado de la operacion \n %f" res);
+printf("Resultado de la operacion \n %f" ,resultado);
 return 0;
-
 }
